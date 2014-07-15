@@ -1,0 +1,87 @@
+#login_window,
+#restart_dialog,
+#shutdown_dialog,
+#login_notebook {
+    background-image: linear-gradient(to bottom,
+				      shade (@lightdm_bg_color, 1.15),
+				      shade (@lightdm_bg_color, 0.7)
+				      );
+
+    border-width: 1px;
+    border-style: solid;
+    border-color: shade (@lightdm_bg_color, 1.99);
+    box-shadow: inset 1px 0px alpha(@light_shadow,0.2),
+		inset -1px 0px alpha(@light_shadow,0.2),
+		inset 0px 1px alpha(@light_shadow,0.2),
+                inset 0px -1px alpha(@light_shadow,0.2);
+    border-radius: 3px;
+}
+
+#login_notebook {
+    border-radius: 0px;
+}
+
+#login_window *,
+#restart_dialog *,
+#shutdown_dialog * {
+
+    padding:2px 2px 2px 2px;
+}
+
+#cancel_button,
+#login_button,
+#login_window .button,
+#shutdown_button,
+#restart_button {
+   /* background-color: none; shade(@lightdm_bg_color, 0.9);
+      background-image: linear-gradient(to bottom,
+				      shade (@lightdm_bg_color, 1.1),
+				      shade (@lightdm_bg_color, 0.75)
+				      );
+    border-top-color: alpha(@dark_shadow, 1.9);
+    border-bottom-color: alpha(@dark_shadow, 0.9);
+    border-left-color: alpha (@dark_shadow, 0.9);
+    border-right-color: alpha (@dark_shadow, 0.9);
+    padding: 4px 16px 4px 16px;
+    border-radius: 3px;
+    text-shadow: none; 0px 1px alpha(@dark_shadow, 1.0);
+    box-shadow: inset 1px 0px alpha(@light_shadow, 0.2),
+                inset -1px 0px alpha(@light_shadow, 0.2),
+                inset 0px 1px alpha(@light_shadow, 0.3),
+                inset 0px -1px alpha(@light_shadow, 0.1);*/
+
+}
+
+/*
+#login_window GtkComboBox .button {
+    padding: 2px 6px 2px 2px;
+
+}
+*/
+#logo,
+#user_image {
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 3px;
+    border-color: alpha(@lightdm_bg_color, 1.9);
+    padding: 3px;
+   /* box-shadow: inset 1px 0px alpha(@light_shadow, 0.5),
+                inset -1px 0px alpha(@light_shadow, 0.5),
+                inset 0px 1px alpha(@light_shadow, 0.6),
+                inset 0px -1px alpha(@light_shadow, 0.5);*/
+}
+
+#panel_window,
+#panel_window #menubar,
+#panel_window > #menubar {
+    background-color: transparent;
+    background-image: linear-gradient(to bottom,
+				      shade (@lightdm_bg_color, 1.15),
+				      shade (@lightdm_bg_color, 0.7)
+				      );;
+    color: @lightdm_fg_color;
+    /*border-bottom-color: alpha(@light_shadow,0.2);*/
+    text-shadow: 0px 1px alpha(@lightdm_bg_color, 0.3);
+    border-style: solid;
+    border-width: 0px 0px 0px 0px;
+}
