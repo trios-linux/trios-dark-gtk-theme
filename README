@@ -1,12 +1,14 @@
-Name: Greybird
-Summary: Desktop Suite for Xfce.
-URL: http://shimmerproject.org/projects/greybird/
+Name: TriOS Dark
+Summary: Desktop Suite for TriOS XFCE. Based on Greybird theme.
+Upstream URL: http://shimmerproject.org/projects/greybird/
 
 Copyright 2009–2012 Simon Steinbeiß and Satyajit Sahoo
-Greybird is dual-licensed as GPLv2 or later and CC-BY-SA 3.0 or later.
+Copyright 2013-2014 Filip Danilovic <filip@openmailbox.org>
+Greybird and TriOS Dark are dual-licensed as GPLv2 or later and CC-BY-SA 3.0 or later.
 
-Desktop Suite for Xfce.
+Desktop Suite for TriOS XFCE.
 Greybird is the default theme in Xubuntu 11.04 onwards.
+TriOS Dark is one of the main themes in TriOS Mia
 
 The Greybird desktop suite includes:
 – GTK2 theme
