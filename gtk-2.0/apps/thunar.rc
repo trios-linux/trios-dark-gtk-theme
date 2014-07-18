@@ -51,6 +51,20 @@ style "breadcrumbs"
 	}
 }
 
+style "thunar-statusbar"
+{
+	fg[NORMAL]	= shade (0.1, @tooltip_fg_color)
+	text[NORMAL]	= @selected_bg_color
+
+	engine "murrine"
+	{
+
+	textstyle = 3
+	shadow_shades       = {1.5,0.5}
+	}
+}
+
+widget_class "*ThunarWindow*GtkInfo*.<GtkLabel>" style "thunar-statusbar"
 widget_class "*ThunarLocationButtons*"		style "breadcrumbs"
 widget_class "*ThunarShortcutsView*"		style "sidepane"
 widget_class "*ThunarTreeView*"			style "sidepane"

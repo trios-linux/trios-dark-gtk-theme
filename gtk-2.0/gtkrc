@@ -745,20 +745,6 @@ style "calendar"
 	bg[PRELIGHT]	= @selected_bg_color
 }
 
-style "thunar-statusbar"
-{
-	fg[NORMAL]	= shade (0.1, @tooltip_fg_color)
-	text[NORMAL]	= @selected_bg_color
-
-	engine "murrine"
-	{
-
-	textstyle = 3
-	shadow_shades       = {1.5,0.5}
-	}
-}
-widget_class "*ThunarWindow*GtkInfo*.<GtkLabel>" style "thunar-statusbar"
-
 
 ###############################################################################
 # The following part of the gtkrc applies the different styles to the widgets.
