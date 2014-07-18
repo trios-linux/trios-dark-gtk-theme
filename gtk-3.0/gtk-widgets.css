@@ -382,8 +382,8 @@ column-header .button:active:hover:focus {
     border-color: shade(@theme_bg_color, 0.97);
     border-bottom-color: shade(@theme_bg_color, 0.9);
     background-image: linear-gradient(to bottom,
-                                      shade(shade(@theme_bg_color, 0.98), 0.98),
-                                      shade(shade(@theme_bg_color, 0.98), 1.35)
+                                      shade(@theme_selected_bg_color, 1.2),
+                                      shade(@theme_selected_bg_color, 0.3)
                                       );
 }
 
