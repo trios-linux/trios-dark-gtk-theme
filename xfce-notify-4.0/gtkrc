@@ -11,11 +11,11 @@ style "notify-window"
 
 style "notify-button"
 {	
-	bg[NORMAL]        = shade (1.65, @bg_color) 
-	bg[PRELIGHT]      = shade (0.8, @selected_bg_color)
-	bg[ACTIVE]        = shade (0.7, @selected_bg_color)
-	bg[SELECTED]      = shade (0.75, @selected_bg_color)  
-	bg[INSENSITIVE]   = shade (0.95, @bg_color)
+	bg[NORMAL]        = "#404040"
+	bg[PRELIGHT]      = "#9C2424"
+	bg[ACTIVE]        = "#871F1F"
+	bg[SELECTED]      = "#912121"
+	bg[INSENSITIVE]   = "#242424"
 
   	engine "murrine" 
 	{
@@ -46,19 +46,19 @@ style "notify-progressbar"
 	xthickness   = 0
 	ythickness   = 0
 
-	fg[PRELIGHT]	= @selected_fg_color
-	bg[NORMAL]	= shade (1.05, @bg_color)
-	bg[SELECTED]	= shade (0.9, @selected_bg_color)
-	bg[ACTIVE]	= shade (1.07, @base_color)
+	fg[PRELIGHT]	= "#ffffff"
+	bg[NORMAL]	= "#292929"
+	bg[SELECTED]	= "#AD2828"
+	bg[ACTIVE]	= "#454545"
 
 	engine "murrine"
 	{
-		gradient_shades	= {0.4,1.0,1.0,1.1}
-		trough_shades	= {0.95, 1.15}
-		trough_border_shades	= { 0.5, 0.4 }
+		gradient_shades	= {1.1, 1.0, 1.0, 0.6}
+		trough_shades	= {1.2, 0.6}
+		trough_border_shades	= { 0.9, 0.5 }
 		roundness 	= 3
 		contrast	= 0.1
-		border_shades	= { 0.5, 1.1 }
+		border_shades	= { 1.1, 0.5 }
 
 	}
 }
