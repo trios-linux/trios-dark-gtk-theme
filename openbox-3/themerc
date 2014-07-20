@@ -1,0 +1,112 @@
+# Dark Colors by dbbolton
+# Mod for Orta by taka (http://makeaniceday.net)
+# CC BY-NC-SA
+
+# Window geometry
+padding.width: 3
+border.width: 1
+window.client.padding.width: 0
+window.client.padding.height: 0
+window.handle.width: 0
+
+#Menu geometry
+menu.border.width: 1
+menu.overlap: 0
+
+# Border colors
+window.active.border.color: #A6A6A6
+window.inactive.border.color: #A6A6A6
+menu.border.color: #A6A6A6
+window.active.client.color: #3c3c3c
+window.inactive.client.color: #3c3c3c
+
+window.active.title.separator.color:  #262626
+window.inactive.title.separator.color: #262626
+
+# Text shadows
+window.active.label.text.font: shadow=n
+window.inactive.label.text.font: shadow=n
+menu.items.font: shadow=n
+menu.title.text.font: shadow=n
+osd.label.text.font: shadow=n
+
+# Window title justification
+window.label.text.justify: center
+
+# Active window
+window.active.title.bg: flat Gradient Vertical
+window.active.title.bg.color: #303030
+window.active.title.bg.colorTo: #262626
+window.active.label.bg: Parentrelative
+window.active.label.text.color: #D9D9D9
+
+window.*.handle.bg: raised solid
+window.*.handle.bg.color: #3c3c3c
+
+window.*.grip.bg: raised solid
+window.*.grip.bg.color: #3c3c3c
+
+window.*.button.*.bg: Parentrelative
+window.active.button.unpressed.image.color: #B2B2B2
+
+window.active.button.pressed.image.color: #A62727
+
+window.*.button.disabled.image.color: #555555
+
+window.*.button.toggled.image.color: #808080
+
+window.*.button.hover.image.color: #FFFFFF
+
+# Inactive windows
+window.inactive.title.bg: flat Gradient Vertical
+window.inactive.title.bg.color: #2B2B2B
+window.inactive.title.bg.colorTo: #262626
+
+window.inactive.label.bg: Parentrelative
+window.inactive.label.text.color: #8C8C8C
+
+
+window.inactive.button.unpressed.image.color: #B2B2B2
+
+window.inactive.button.pressed.image.color: #A62727
+
+
+
+
+# Menus
+menu.title.bg: flat gradient vertical 
+menu.title.bg.color: #303030
+menu.title.bg.colorTo: #262626
+menu.title.text.color: #D9D9D9
+menu.title.text.justify: Center
+
+menu.items.bg: Flat Solid
+menu.items.bg.color: #262626
+menu.items.text.color: #D9D9D9
+menu.items.disabled.text.color: #8C8C8C
+
+menu.items.active.bg: flat gradient vertical border
+menu.items.active.bg.border.color: #606060
+menu.items.active.bg.color: #c12d2d
+menu.items.active.bg.colorTo: #A62727
+menu.items.active.text.color: #ffffff
+menu.items.active.disabled.text.color: #8C8C8C
+
+#osd
+osd.border.width: 1
+osd.border.color:  #606060
+
+osd.bg: flat gradient vertical
+osd.bg.color: #303030
+osd.bg.colorTo: #262626
+
+osd.hilight.bg: flat gradient vertical border
+osd.hilight.bg.border.color: #606060
+osd.hilight.bg.color: #c12d2d
+osd.hilight.bg.colorTo: #A62727
+
+osd.unhilight.bg: flat solid
+osd.unhilight.bg.color: #D9D9D9
+
+osd.label.bg: Parentrelative
+osd.label.text.color: #D9D9D9
