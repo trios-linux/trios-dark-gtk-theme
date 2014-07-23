@@ -869,7 +869,7 @@ style "text-is-fg-color-workaround"
 	text[PRELIGHT]    = @fg_color
 	text[SELECTED]    = @selected_fg_color
 	text[ACTIVE]      = @fg_color
-	text[INSENSITIVE] = darker (@bg_color)
+	text[INSENSITIVE] = darker (@fg_color)
 }
 widget_class "*.<GtkComboBox>.<GtkCellView>"	style "text-is-fg-color-workaround"
 
@@ -879,7 +879,7 @@ style "menuitem-text-is-fg-color-workaround"
 	text[PRELIGHT]      = @selected_fg_color
 	text[SELECTED]      = @selected_fg_color
 	text[ACTIVE]        = @fg_color
-	text[INSENSITIVE]   = darker (@bg_color)
+	text[INSENSITIVE]   = darker (@fg_color)
 }
 widget "*.gtk-combobox-popup-menu.*"	style "menuitem-text-is-fg-color-workaround"
 
@@ -891,7 +891,7 @@ style "fg-is-text-color-workaround"
 	fg[PRELIGHT]    = @text_color
 	fg[ACTIVE]      = @selected_fg_color
 	fg[SELECTED]    = @selected_fg_color
-	fg[INSENSITIVE] = darker (@bg_color)
+	fg[INSENSITIVE] = darker (@fg_color)
 }
 widget_class "*<GtkListItem>*"		style "fg-is-text-color-workaround"
 # The same problem also exists for GtkCList and GtkCTree.
