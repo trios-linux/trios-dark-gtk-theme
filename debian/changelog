@@ -1,0 +1,44 @@
+trios-dark (0.4.1-1) testing; urgency=medium
+
+  * FIXED AND UPDATED:
+  * gtk3 - Column header hover color
+  * gtk3 - Check and radio buttons assets
+  * gtk3 - Linked buttons fix
+  * gtk2 - Match disabled combobox with gtk3
+  * gtk2 - Lighten up text color in Orage Calendar
+  * gtk2 - Match selected togglebutton with gtk3 counterpart
+  * gtk2 - Whisker menu improvements
+  * gtk2 - Thunar infobar fix moved to thunar.rc
+  * gtk2 - Lightened up the enabled unchecked check and radio buttons
+  * gtk2 - Xfce Terminal tabs now match the rest of the theme
+  * xfce4-notify -  Reseting back to default theme fixed
+  * And more minor fixes and improvements
+
+ -- Filip Danilovic <filip@opmbx.org>  Sun, 24 Aug  2014 22:50:50 +0200
+
+trios-dark (0.2.1-1) testing; urgency=medium
+
+  * FIXED AND UPDATED:
+  * Scale slider and button
+  * GIMP Toolbar buttons
+  * LibreOffice Toolbar buttons
+  * Buttons
+  * Lightdm-greeter
+  * Xfce panel applets background color
+  * Xfce panel text color
+  * Xfce notifications
+  * Mess that latest gtk3 update made
+
+ -- Filip Danilovic <filip@opmbx.org>  Wed, 18 Jun  2014 22:16:50 +0200
+
+trios-dark (0.2-1) testing; urgency=medium
+
+  * Second release, many various fixes, mainly new look on buttons.
+
+ -- Filip Danilovic <filip@opmbx.org>  Fri, 12 May 2014 23:16:50 +0200
+
+trios-dark (0.1-1) testing; urgency=medium
+
+  * Initial release.
+
+ -- Filip Danilovic <filip@opmbx.org>  Fri, 09 May 2014 01:08:50 +0200

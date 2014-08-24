@@ -1,0 +1,12 @@
+Source: trios-dark
+Maintainer: Filip Danilovic <filip@opmbx.org>
+Section: misc
+Priority: optional
+Standards-Version: 3.9.2
+Build-Depends: debhelper (>= 9)
+
+Package: trios-dark
+Architecture: all
+Depends: gtk2-engines-murrine
+Description: TRIOS Dark GTK theme.
+ TriOS Dark is a Greybird based GTK theme made for TRIOS.
