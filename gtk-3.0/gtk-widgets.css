@@ -237,6 +237,14 @@ GtkAssistant .sidebar {
                                       );
 }
 
+.button:toggle {
+    border-color: shade(@theme_bg_color, 0.6);
+    background-image: linear-gradient(to bottom,
+                                      shade(@theme_selected_bg_color, 1.05),
+                                      shade(@theme_selected_bg_color, 0.15)
+                                      );
+}
+
 .button:active:hover {
     border-top-color: shade(@theme_bg_color, 0.85);
     border-right-color: shade(@theme_bg_color, 0.78);
@@ -2614,7 +2622,7 @@ GtkColorButton.button {
 .primary-toolbar .raised .button,
 .primary-toolbar .raised.button,
 .toolbar GtkComboBox,
-.toolbar .button,
+.toolbar .button .raised .button,
 .header-bar GtkComboBox,
 .header-bar .button {
     border-top-color: shade(@toolbar_bg_color, 0.8);
@@ -3573,4 +3581,30 @@ GtkBubbleWindow .toolbar {
 .window-frame:backdrop {
     box-shadow: 0 3px 5px alpha(black, 0.5),
                 0 0 0 1px alpha(black, 0.2);
+}
+
+.toolbar .button , .toolbar .button:insensitive  {
+    border: 1px solid transparent;
+    background: none;
+    border-color: none;
+    box-shadow: inset 0 0 ,
+                inset 0 0 ;
+}
+
+.toolbar .button , .toolbar .button:insensitive  {
+    border: 1px solid transparent;
+    background: none;
+    border-color: none;
+    box-shadow: inset 0 0 ,
+                inset 0 0 ;
+}
+
+.toolbar .button:active,
+.toolbar .button:active,
+.header-bar .button:active {
+    border-color: shade(@toolbar_bg_color, 0.6);
+    background-image: linear-gradient(to bottom,
+                                      shade(@theme_selected_bg_color, 1.05),
+                                      shade(@theme_selected_bg_color, 0.15)
+                                      );
 }

@@ -29,3 +29,4 @@ move_opacity=100
 popup_opacity=100
 show_frame_shadow=true
 show_popup_shadow=true
+#show_app_icon=true
