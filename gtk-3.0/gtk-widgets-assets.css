@@ -203,15 +203,26 @@ GtkIconView.content-view.cell.check:active {
 /******************
  * pane separator *
  ******************/
-.pane-separator,
 .pane-separator.horizontal {
-    -gtk-icon-source: url("assets/pane-separator.png");
+    background-image: url("assets/pane-separator.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.pane-separator.horizontal:hover {
+  background-image: url("assets/pane-separator-hover.png");
     background-repeat: no-repeat;
     background-position: center center;
 }
 
 .pane-separator.vertical {
-    -gtk-icon-source: url("assets/pane-separator-vertical.png");
+    background-image: url("assets/pane-separator-vertical.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.pane-separator.vertical:hover {
+  background-image: url("assets/pane-separator-vertical-hover.png");
     background-repeat: no-repeat;
     background-position: center center;
 }
