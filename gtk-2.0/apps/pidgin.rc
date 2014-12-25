@@ -1,19 +1,28 @@
-# Create a style called "pidgin-trios-dark" where the text and base (the base color behind the widget) are the reverse of typical.
+# Create a style called "pidgin-trios-dark" where the text and base 
+# (the base color behind the widget) are the reverse of typical.
+#
+# 2014 Filip Danilovic <filip@openmailbox.org>
+
 style "pidgin-trios-dark"
 {
    text[NORMAL] = "#404040"
    base[NORMAL] = "#F7F7F7"
 }
 
-# Apply "pidgin-trios-dark" to conversation entry box--where you type.
-widget "*pidgin_conv_entry" style "pidgin-trios-dark"
+# Apply "pidgin-trios-dark" to conversation entry box--where you type:
+	widget "*pidgin_conv_entry" style "pidgin-trios-dark"
 
-# Apply "pidgin-trios-dark" to conversation history pane--where you read the conversation.
-widget "*pidgin_conv_imhtml" style "pidgin-trios-dark"
+# Apply "pidgin-trios-dark" to conversation history pane--where you read the conversation:
+	widget "*pidgin_conv_imhtml" style "pidgin-trios-dark"
 
-widget "*pidgin_log_imhtml" style "pidgin-trios-dark"
+# Apply "pidgin-trios-dark" to log viewer:
+	widget "*pidgin_log_imhtml" style "pidgin-trios-dark"
 
-widget_class "*TreeView" style "pidgin-trios-dark"
+# Apply "pidgin-trios-dark" to user list:
+	widget "*pidgin_conv_userlist" style "pidgin-trios-dark"
+
+
+# Now create a style that basically reverts the previous one:
 
 style"buddylist-fix"
 {
@@ -23,4 +32,7 @@ style"buddylist-fix"
 
 }
 
-#widget "*pidgin_blist_treeview" style "buddylist-fix"
+# And apply it to buddy list, so that dark icon theme can be used & kept lookin' good:
+	widget "*pidgin_blist_treeview" style "buddylist-fix"
+
+# Victory! :)
