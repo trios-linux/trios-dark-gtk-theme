@@ -1,0 +1,26 @@
+# Create a style called "pidgin-trios-dark" where the text and base (the base color behind the widget) are the reverse of typical.
+style "pidgin-trios-dark"
+{
+   text[NORMAL] = "#404040"
+   base[NORMAL] = "#F7F7F7"
+}
+
+# Apply "pidgin-trios-dark" to conversation entry box--where you type.
+widget "*pidgin_conv_entry" style "pidgin-trios-dark"
+
+# Apply "pidgin-trios-dark" to conversation history pane--where you read the conversation.
+widget "*pidgin_conv_imhtml" style "pidgin-trios-dark"
+
+widget "*pidgin_log_imhtml" style "pidgin-trios-dark"
+
+widget_class "*TreeView" style "pidgin-trios-dark"
+
+style"buddylist-fix"
+{
+
+	text[NORMAL] = "#D9D9D9"
+	base[NORMAL] = "#404040"
+
+}
+
+#widget "*pidgin_blist_treeview" style "buddylist-fix"
