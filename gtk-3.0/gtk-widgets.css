@@ -247,6 +247,7 @@ GtkAssistant .sidebar {
     color: @theme_fg_color;
 }
 
+.button.flat:hover,
 .button:hover {
     border-top-color: shade(@theme_bg_color, 0.85);
     border-right-color: shade(@theme_bg_color, 0.78);
@@ -259,6 +260,8 @@ GtkAssistant .sidebar {
 }
 
 .button:active,
+.button.flat:active,
+.button.flat:checked,
 .button:checked {
     border-color: shade(@theme_bg_color, 0.6);
     background-image: linear-gradient(to bottom,
@@ -276,6 +279,8 @@ GtkAssistant .sidebar {
 } */
 
 .button:active:hover,
+.button.flat:active:hover,
+.button.flat:checked:hover,
 .button:checked:hover {
     border-top-color: shade(@theme_bg_color, 0.85);
     border-right-color: shade(@theme_bg_color, 0.78);
@@ -289,6 +294,8 @@ GtkAssistant .sidebar {
 
 .button:focus,
 .button:hover:focus,
+.button.flat:focus,
+.button.flat:hover:focus,
 .button:active:focus,
 .button:active:hover:focus,
 .button:checked:focus,
@@ -304,6 +311,8 @@ GtkAssistant .sidebar {
                                       );
 }
 
+.button.flat:active:insensitive,
+.button.flat:checked:insensitive,
 .button:active:insensitive,
 .button:checked:insensitive {
     border-color: shade(@theme_bg_color, 0.8);
@@ -682,7 +691,7 @@ GtkComboBox.combobox-entry .button:insensitive {
 .frame {
     border-width: 1px;
     border-style: solid;
-    border-color: shade(@theme_bg_color, 0.7);
+    border-color: shade(@theme_bg_color, 0.85);
     border-radius: 0;
 }
 
@@ -692,7 +701,7 @@ GtkComboBox.combobox-entry .button:insensitive {
 GtkScrolledWindow.frame {
     border-width: 1px;
     border-style: solid;
-    border-color: shade(@theme_bg_color, 0.7);
+    border-color: shade(@theme_bg_color, 0.75);
     border-radius: 0;
 }
 
@@ -1469,7 +1478,7 @@ GtkModelButton.button:selected {
     border-color: shade(@theme_bg_color, 0.8);
     background-color: shade(@theme_bg_color, 1.05);
     background-image: linear-gradient(to bottom,
-                                      shade(@theme_base_color, 1.1),
+                                      shade(@theme_base_color, 1.3),
                                       shade(@theme_base_color, 0.7)
 				      );
 }
