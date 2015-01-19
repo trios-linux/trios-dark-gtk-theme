@@ -6,7 +6,7 @@
 gtk-color-scheme	= "bg_color:#262626\nselected_bg_color:#c12d2d\nbase_color:#404040" # Background, base.
 gtk-color-scheme	= "fg_color:#D9D9D9\nselected_fg_color:#FFF\ntext_color:#D9D9D9" # Foreground, text. 
 gtk-color-scheme	= "tooltip_bg_color:#000000\ntooltip_fg_color:#FFF" # Tooltips.
-gtk-color-scheme	= "link_color:#2c82dd" # Hyperlinks
+gtk-color-scheme	= "link_color:#c12d2d" # Hyperlinks
 gtk-color-scheme	= "panel_bg:#686868" # Panel bg color
 gtk-color-scheme	= "fm_color:#F7F7F7" # Color used in Nautilus and Thunar.
 gtk-color-scheme	= "bg_color_dark:#686868\ntext_color_dark:#FFF"
@@ -247,7 +247,7 @@ style "button" = "wider"
 		highlight_shade     = 1.0
 		lightborder_shade   = 1.2
 		gradient_shades     = {1.4,1.0,1.0,0.3}
-		border_shades       = { 1.1, 0.5 }
+		border_shades       = { 1.1, 0.1 }
 		shadow_shades       = {1.0,1.0}
 		reliefstyle         = 0
 		roundness	    = 2
