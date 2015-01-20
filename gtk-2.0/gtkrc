@@ -740,11 +740,21 @@ style "xfsm-button" = "button"
 
 style "calendar"
 {
-	fg[NORMAL]	= shade (0.9, @text_color)
-	fg[PRELIGHT]	= "#000000"
-	bg[NORMAL]	= shade (0.95, @bg_color)
-	bg[PRELIGHT]	= @selected_bg_color
-	base[NORMAL] = shade (1.1, @base_color)
+
+	bg[NORMAL]      = shade (0.1, @bg_color)
+	bg[PRELIGHT]	= shade(0.95, @selected_bg_color)
+
+	base[NORMAL]      = @base_color
+	base[PRELIGHT]    = @bg_color
+	base[ACTIVE]      = @bg_color
+	base[SELECTED]    = @bg_color
+	base[INSENSITIVE] = @selected_bg_color
+
+	text[NORMAL]      = @text_color
+	text[SELECTED]    = @selected_bg_color
+
+	fg[PRELIGHT]	= "#FFF"
+
 }
 
 
