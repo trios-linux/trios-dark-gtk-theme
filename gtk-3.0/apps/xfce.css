@@ -1,5 +1,20 @@
 CatfishWindow .pane-separator {
-    background-color: mix(shade(@theme_base_color, 0.9), shade(@theme_selected_bg_color, 1.35), 0.1);
+    background-color: @theme_bg_color;
+    color: transparent;
+}
+
+CatfishWindow .primary-toolbar GtkComboBox .button {
+    padding: 2px 4px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: transparent;
+    border-radius: 3px;
+    background-image: linear-gradient(to bottom,
+                                      shade(@theme_bg_color, 2.4),
+                                      shade(@theme_bg_color, 0.9)
+                                      );
+
+    color: @theme_fg_color;
 }
 
 XfceHeading,
