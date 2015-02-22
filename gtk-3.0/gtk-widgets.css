@@ -413,6 +413,7 @@ GtkCheckButton:active:hover,
 GtkCheckButton:selected,
 GtkCheckButton:selected:focus {
     background-color: shade(@theme_selected_bg_color, 0.9);
+	color: @theme_selected_fg_color;
 }
 
 /*****************
