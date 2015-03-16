@@ -1,3 +1,16 @@
+trios-dark (0.6-1) testing; urgency=medium
+
+  * Check/Radio buttons hover foreground made nicer.
+  * Do not use symbolic icons in gtk3 file chooser dialog.
+  * Catfish main toolbar GtkCombo box fixed.
+  * Calendar style now matches the theme better.
+  * Buttons:
+    - Small improvement on borders,
+    - Some fixes imported from Greybird, completes gtk3.14 support.
+  * Popovers improvements.
+
+ -- Filip Danilovic <filip@openmailbox.org>  Mon, 16 Mar  2015 22:19:50 +0100
+
 trios-dark (0.5.2-2) testing; urgency=medium
 
   * Fix permissions, keeps lintian quet.
