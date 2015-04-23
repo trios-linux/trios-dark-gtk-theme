@@ -5,7 +5,7 @@ trios-dark (0.6-1) testing; urgency=medium
   * Catfish main toolbar GtkCombo box fixed.
   * Calendar style now matches the theme better.
   * Buttons:
-    - Small improvement on borders,
+    - Small improvement on borders.
     - Some fixes imported from Greybird, completes gtk3.14 support.
   * Popovers improvements.
 
